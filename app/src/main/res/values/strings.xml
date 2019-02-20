@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Reviews</string>
+    <string name="profile">Profile</string>
+    <string name="notification">Notification</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="addLocation">Add Location</string>
+    <string name="your_business_page">Your Business Page</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="rate">Rate app</string>
+    <string name="developers">Developers</string>
+    <string name="share">Share</string>
+    <string name="help">Help</string>
+    <string name="home">Home</string>
+    <string name="about">About</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="log_out">Log Out</string>
+</resources>

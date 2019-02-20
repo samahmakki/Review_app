@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.reviews">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="@string/app_name"/>
+        <activity
+            android:name=".ProfileActivity"
+            android:label="@string/profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NotificationActivity"
+            android:label="@string/notification"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddLocationActivity"
+            android:label="@string/addLocation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BusinessBageActivity"
+            android:label="@string/your_business_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ContactUsActivity"
+            android:label="@string/contact_us"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RateActivity"
+            android:label="@string/rate"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DevelopersActivity"
+            android:label="@string/developers"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ShareActivity"
+            android:label="@string/share"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HelpActivity"
+            android:label="@string/help"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/about"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PrivacyActivity"
+            android:label="@string/privacy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LogOutActivity"
+            android:label="@string/log_out"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
